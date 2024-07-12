@@ -8,7 +8,7 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <AppTitle data={'Movies Search App'}/>
+      <AppTitle data={'Movies Search App'} />
       <AppRoutes />
     </>
   );

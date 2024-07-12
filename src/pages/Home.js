@@ -6,9 +6,9 @@ import Pagination from '../components/pagination';
 import Spinner from '../components/spinner';
 import SearchInput from '../components/search';
 import MovieCard from '../components/moviecard';
+import DropDown from '../components/dropdown';
 
 import './Home.css';
-import DropDown from '../components/dropdown/DropDown';
 
 const Home = () => {
     const defaultValue = 'fast';
