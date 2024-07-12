@@ -1,14 +1,14 @@
 import React from 'react';
 
 import AppRoutes from './routing/AppRoutes';
-import AppTitle from './components/apptitle';
+import AppTitle from './components/heading';
 
 import './App.css';
 
 const App = () => {
   return (
     <>
-      <AppTitle />
+      <AppTitle data={'Movies Search App'}/>
       <AppRoutes />
     </>
   );

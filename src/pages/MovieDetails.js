@@ -35,11 +35,13 @@ const MovieDetails = () => {
             <div className="movie-details mx-4">
               <div>
                 <h3>{detail.Title}</h3>
-                <img src={detail.Poster} alt={detail.Title} className="poster" />
               </div>
-              <div>
-                <div className="details">
-                  <MovieInfo detail={detail} />
+              <div className='d-flex'>
+                <img src={detail.Poster} alt={detail.Title} className="poster" />
+                <div>
+                  <div className="details">
+                    <MovieInfo detail={detail} />
+                  </div>
                 </div>
               </div>
             </div>

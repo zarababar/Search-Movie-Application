@@ -1,7 +1,7 @@
  /* MovieDetails.css */
-
  .movie-details {
      display: flex;
+     flex-direction: column;
      text-align: left;
      width: 95%;
      margin: 0px auto;
@@ -14,15 +14,14 @@
  .movie-details h3 {
      font-size: 2rem;
      margin-bottom: 20px;
-     text-align: left;
+     text-align: center;
      margin-left: 55px;
  }
-
 
  .movie-details .poster {
      display: block;
      text-align: center;
-     margin: 0 auto;
+     margin: 20px;
      width: 250px;
      height: 400px;
      border-radius: 8px;
@@ -33,7 +32,7 @@
  .movie-details .details {
      flex-wrap: wrap;
      margin-top: 15px;
-     margin-left: 300px;
+     margin-left: 85px;
  }
 
  .movie-details .details p {
